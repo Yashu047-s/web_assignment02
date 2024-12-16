@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Online Registration Form</h1>
+    </header>
+    
+    <section id="form-section">
+        <form id="registration-form" action="submit.php" method="POST">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first_name" required><br>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last_name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
+
+            <button type="submit" id="submit-button">Submit</button>
+        </form>
+    </section>  
+
+    <footer>
+        <p>© 2024 Your Name</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
